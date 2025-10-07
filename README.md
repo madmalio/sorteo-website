@@ -10,7 +10,7 @@
 
 ## About The Project
 
-![Sorteo App Screenshot](https-placeholder-for-screenshot)
+![Sorteo App Screenshot](public/sorteo-screenshot.png)
 Sorteo was built to solve a common problem: digital clutter. Whether it's a messy "Downloads" folder or a chaotic collection of project files, Sorteo provides an easy-to-use interface to sort your files based on rules you define. Its goal is to turn chaos into order in just a few clicks.
 
 ### ## Key Features ✨
