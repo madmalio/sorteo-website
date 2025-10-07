@@ -1,6 +1,6 @@
 # Sorteo 📂
 
-![Sorteo Banner](https-placeholder-for-banner-image)
+![Sorteo Banner](public/sorteo-banner.png)
 
 <p align="center">
   A simple, modern, and powerful desktop utility to help you organize your digital files into clean, structured folders.
