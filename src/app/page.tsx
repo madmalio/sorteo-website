@@ -77,8 +77,9 @@ export default function Home() {
             <Search className="h-12 w-12 text-blue-500" />
             <h3 className="mt-6 text-xl font-bold">Safe Operations</h3>
             <p className="mt-2 text-gray-400">
-              Perform a 'Dry Run' to preview exactly where your files will go
-              before you move or copy a single one.
+              {
+                "Perform a 'Dry Run' to preview exactly where your files will go before you move or copy a single one."
+              }
             </p>
           </div>
           <div className="flex flex-col items-center rounded-lg bg-gray-800 p-8 text-center">
@@ -129,8 +130,9 @@ export default function Home() {
               <div>
                 <h3 className="text-xl font-semibold">Start Sorting</h3>
                 <p className="mt-2 text-gray-400">
-                  Click 'Start Sorting' to move or copy your files into a clean,
-                  predictable folder structure.
+                  {
+                    "Click 'Start Sorting' to move or copy your files into a clean, predictable folder structure."
+                  }
                 </p>
               </div>
             </div>
@@ -158,10 +160,9 @@ export default function Home() {
               <AccordionItem value="item-2">
                 <AccordionTrigger>Is Sorteo safe to use?</AccordionTrigger>
                 <AccordionContent>
-                  Absolutely. Sorteo only moves or copies files based on your
-                  commands. It does not delete anything, and the 'Dry Run'
-                  feature lets you preview all changes safely. The code is also
-                  open source for anyone to review.
+                  {
+                    "Absolutely. Sorteo only moves or copies files based on your commands. It does not delete anything, and the 'Dry Run' feature lets you preview all changes safely. The code is also open source for anyone to review."
+                  }
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3">
