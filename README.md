@@ -81,5 +81,5 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Sorteo is a free and open-source project. If you find it useful, please consider supporting its development. Every little bit helps!
 
-- [**Buy Me a Coffee**](https-placeholder-for-your-donation-link)
-- [**GitHub Sponsors**](https-placeholder-for-your-github-sponsors-link)
+- [**Buy Me a Coffee**](https://ko-fi.com/madmalio)
+<!--- - [**GitHub Sponsors**](https-placeholder-for-your-github-sponsors-link) --->
