@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sorteo 📂
+
+![Sorteo Banner](https-placeholder-for-banner-image)
+
+<p align="center">
+  A simple, modern, and powerful desktop utility to help you organize your digital files into clean, structured folders.
+</p>
+
+---
+
+## About The Project
+
+![Sorteo App Screenshot](https-placeholder-for-screenshot)
+Sorteo was built to solve a common problem: digital clutter. Whether it's a messy "Downloads" folder or a chaotic collection of project files, Sorteo provides an easy-to-use interface to sort your files based on rules you define. Its goal is to turn chaos into order in just a few clicks.
+
+### ## Key Features ✨
+
+- **Flexible Sorting:** Organize files by `Year/Month`, `File Type`, or create your own custom folder structures.
+- **Safe Operations:** Perform a **Dry Run** to preview exactly where your files will go before committing to a move or copy.
+- **Move or Copy:** Choose to either move files to their new home or simply create an organized copy, leaving the original files untouched.
+- **Deep Cleaning:** Optionally include all subfolders in the sorting process for a thorough organization.
+- **Modern UI:** A clean, sleek interface built with a customizable dark/light theme.
+
+### ## Built With
+
+This project is composed of two main parts: the desktop application and the promotional website.
+
+- **Sorteo Application:**
+  - ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+  - ![CustomTkinter](https://img.shields.io/badge/CustomTkinter-007ACC?style=for-the-badge)
+- **Promotional Website:**
+  - ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+  - ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+  - ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+---
 
 ## Getting Started
 
-First, run the development server:
+To get a copy of Sorteo up and running, please visit our official website for the latest version.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### ### Installation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1.  Navigate to the [**Official Sorteo Website**](https-placeholder-for-your-website-url).
+2.  Click the **Download** button to get the installer or `.zip` file.
+3.  Run the installer or unzip the folder and launch **Sorteo.exe**.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Usage
 
-## Learn More
+Using Sorteo is designed to be as simple as possible:
 
-To learn more about Next.js, take a look at the following resources:
+1.  **Select Folders:** Choose an **Origin Folder** (where your messy files are) and a **Destination Folder** (where you want the sorted files to go).
+2.  **Choose Rules:** Select the file types you want to sort and pick a folder structure from the dropdown menu.
+3.  **Start Sorting:** Choose your operation (`Move`, `Copy`, or `Dry Run`) and click the "Start Sorting" button.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
+
+---
+
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+---
+
+## Support the Project ❤️
+
+Sorteo is a free and open-source project. If you find it useful, please consider supporting its development. Every little bit helps!
+
+- [**Buy Me a Coffee**](https-placeholder-for-your-donation-link)
+- [**GitHub Sponsors**](https-placeholder-for-your-github-sponsors-link)
