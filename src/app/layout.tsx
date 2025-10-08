@@ -37,14 +37,18 @@ export default function RootLayout({
           <ScrollToTop />
           <Footer />
         </ThemeProvider>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-K601YQ7JT6"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-K601YQ7JT6');
-        </script>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-K601YQ7JT6"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-K601YQ7JT6');
+          `}
+        </Script>
       </body>
     </html>
   );
