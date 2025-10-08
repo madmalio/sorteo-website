@@ -169,7 +169,7 @@ export default function Home() {
                 <AccordionTrigger>Is Sorteo completely free?</AccordionTrigger>
                 <AccordionContent className="text-gray-600 dark:text-gray-400">
                   {
-                    "Yes, Sorteo is 100% free to use. If you find it helpful, consider supporting its development with a donation."
+                    "Yes, Sorteo is 100% free to use. If you find it helpful, consider supporting its development with a tip."
                   }
                 </AccordionContent>
               </AccordionItem>
