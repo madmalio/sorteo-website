@@ -29,7 +29,7 @@ export function ThankYouModal({ isOpen, onOpenChange }: ThankYouModalProps) {
           </DialogDescription>
         </DialogHeader>
         <a
-          href="#" // TODO: Link to your Ko-fi page
+          href="https://ko-fi.com/madmalio"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-4 inline-flex w-full items-center justify-center rounded-lg bg-pink-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-pink-700"
