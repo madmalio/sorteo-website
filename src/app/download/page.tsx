@@ -64,9 +64,9 @@ export default function DownloadPage() {
               <div className="mt-6 border-t border-gray-200 pt-6 dark:border-gray-800">
                 <h3 className="font-semibold">What's New:</h3>
                 <ul className="mt-2 list-inside list-disc space-y-1 text-gray-600 dark:text-gray-400">
-                  <li>{"Initial public release."}</li>
-                  <li>{"Core features: Move, Copy, and Dry Run."}</li>
-                  <li>{"Support for various sorting structures."}</li>
+                  <li>Initial public release.</li>
+                  <li>Core features: Move, Copy, and Dry Run.</li>
+                  <li>Support for various sorting structures.</li>
                 </ul>
               </div>
             </div>

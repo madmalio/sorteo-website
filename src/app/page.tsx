@@ -53,27 +53,24 @@ export default function Home() {
             <Cog className="h-12 w-12 text-blue-500" />
             <h3 className="mt-6 text-xl font-bold">Flexible Sorting</h3>
             <p className="mt-2 text-gray-600 dark:text-gray-400">
-              {
-                "Organize files by date, type, or create your own custom folder structures with an easy-to-use interface."
-              }
+              Organize files by date, type, or create your own custom folder
+              structures with an easy-to-use interface.
             </p>
           </div>
           <div className="flex flex-col items-center rounded-lg bg-white p-8 text-center shadow-sm dark:bg-gray-800">
             <Search className="h-12 w-12 text-blue-500" />
             <h3 className="mt-6 text-xl font-bold">Safe Operations</h3>
             <p className="mt-2 text-gray-600 dark:text-gray-400">
-              {
-                "Perform a 'Dry Run' to preview exactly where your files will go before you move or copy a single one."
-              }
+              Perform a 'Dry Run' to preview exactly where your files will go
+              before you move or copy a single one.
             </p>
           </div>
           <div className="flex flex-col items-center rounded-lg bg-white p-8 text-center shadow-sm dark:bg-gray-800">
             <Copy className="h-12 w-12 text-blue-500" />
             <h3 className="mt-6 text-xl font-bold">Move or Copy</h3>
             <p className="mt-2 text-gray-600 dark:text-gray-400">
-              {
-                "Choose whether to move files to their new home or simply create a copy, leaving the original files untouched."
-              }
+              Choose whether to move files to their new home or simply create a
+              copy, leaving the original files untouched.
             </p>
           </div>
         </div>
@@ -98,9 +95,8 @@ export default function Home() {
               <div>
                 <h3 className="text-xl font-semibold">Select Folders</h3>
                 <p className="mt-2 text-gray-600 dark:text-gray-400">
-                  {
-                    "Choose an origin folder with your messy files and a destination folder for the organized results."
-                  }
+                  Choose an origin folder with your messy files and a
+                  destination folder for the organized results.
                 </p>
               </div>
             </div>
@@ -111,9 +107,8 @@ export default function Home() {
               <div>
                 <h3 className="text-xl font-semibold">Choose Rules</h3>
                 <p className="mt-2 text-gray-600 dark:text-gray-400">
-                  {
-                    "Select which file types to sort and pick a folder structure, like `Year/Month` or `File Type`."
-                  }
+                  Select which file types to sort and pick a folder structure,
+                  like `Year/Month` or `File Type`.
                 </p>
               </div>
             </div>
@@ -124,9 +119,8 @@ export default function Home() {
               <div>
                 <h3 className="text-xl font-semibold">Start Sorting</h3>
                 <p className="mt-2 text-gray-600 dark:text-gray-400">
-                  {
-                    "Click 'Start Sorting' to move or copy your files into a clean, predictable folder structure."
-                  }
+                  Click 'Start Sorting' to move or copy your files into a clean,
+                  predictable folder structure.
                 </p>
               </div>
             </div>
@@ -147,17 +141,17 @@ export default function Home() {
               <AccordionItem value="item-1">
                 <AccordionTrigger>Is Sorteo completely free?</AccordionTrigger>
                 <AccordionContent className="text-gray-600 dark:text-gray-400">
-                  {
-                    "Yes, Sorteo is 100% free to use. If you find it helpful, consider supporting its development with a tip."
-                  }
+                  Yes, Sorteo is 100% free to use. If you find it helpful,
+                  consider supporting its development with a tip.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-2">
                 <AccordionTrigger>Is Sorteo safe to use?</AccordionTrigger>
                 <AccordionContent className="text-gray-600 dark:text-gray-400">
-                  {
-                    "Absolutely. Sorteo only moves or copies files based on your commands. It does not delete anything, and the 'Dry Run' feature lets you preview all changes safely. The code is also open source for anyone to review."
-                  }
+                  Absolutely. Sorteo only moves or copies files based on your
+                  commands. It does not delete anything, and the 'Dry Run'
+                  feature lets you preview all changes safely. The code is also
+                  open source for anyone to review.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3">
@@ -165,9 +159,8 @@ export default function Home() {
                   What operating systems does Sorteo support?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600 dark:text-gray-400">
-                  {
-                    "Currently, Sorteo is available for Windows. A macOS version is planned for the future."
-                  }
+                  Currently, Sorteo is available for Windows. A macOS version is
+                  planned for the future.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -175,8 +168,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* NEW: Final Call to Action Section */}
-      <section className="w-full bg-slate-100 py-20 dark:bg-gray-950">
+      {/* Final Call to Action Section */}
+      <section className="w-full bg-white py-20 dark:bg-gray-950">
         <div className="mx-auto flex max-w-4xl flex-col items-center px-8 text-center">
           <h2 className="text-4xl font-bold tracking-tight">
             Ready to Get Organized?
