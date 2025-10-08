@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Cog, Copy, Search, Heart } from "lucide-react";
+import { Cog, Copy, Search } from "lucide-react";
 import {
   Accordion,
   AccordionContent,

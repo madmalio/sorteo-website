@@ -11,7 +11,7 @@ export function Footer() {
         <div className="mt-4 flex items-center gap-6 sm:mt-0">
           {/* Ko-fi Link */}
           <a
-            href="#" // TODO: Add your Ko-fi link here
+            href="https://ko-fi.com/madmalio"
             target="_blank"
             rel="noopener noreferrer"
             title="Support on Ko-fi"
