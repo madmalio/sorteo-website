@@ -37,7 +37,6 @@ export default function RootLayout({
           <ScrollToTop />
           <Footer />
         </ThemeProvider>
-        <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-K601YQ7JT6"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
