@@ -1,34 +1,15 @@
-// This directive tells Next.js to treat this page as interactive
-"use client";
-
 import Image from "next/image";
 import { Cog, Copy, Search, Heart } from "lucide-react";
-import { SiGithub } from "react-icons/si";
-import { useState } from "react";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-} from "@/components/ui/dialog";
-import { ThemeToggle } from "@/components/theme-toggle";
 
 export default function Home() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
   return (
     <main className="relative flex min-h-screen flex-col items-center justify-center bg-slate-100 text-gray-900 transition-colors duration-300 dark:bg-gray-900 dark:text-white">
-      <div className="absolute top-4 right-4">
-        <ThemeToggle />
-      </div>
-
       {/* --- HERO SECTION --- */}
       <section className="flex max-w-4xl flex-col items-center p-8 text-center">
         <h1 className="pb-2 text-5xl font-bold leading-snug tracking-tight text-transparent md:text-7xl bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">
@@ -39,9 +20,7 @@ export default function Home() {
           your digital files into clean, structured folders.
         </p>
         <a
-          href="/sorteo-v1.0.0-windows.zip"
-          download
-          onClick={() => setIsModalOpen(true)}
+          href="/download"
           className="mt-8 inline-block rounded-lg bg-blue-600 px-8 py-3 font-semibold text-white transition-colors hover:bg-blue-700"
         >
           Download for Windows
@@ -196,49 +175,24 @@ export default function Home() {
         </div>
       </section>
 
-      {/* --- FOOTER --- */}
-      <footer className="w-full border-t border-gray-200 dark:border-gray-800">
-        <div className="mx-auto flex max-w-6xl flex-col items-center justify-between px-8 py-6 sm:flex-row">
-          <p className="text-sm text-gray-500 dark:text-gray-400">
-            © {new Date().getFullYear()} Sorteo. All Rights Reserved.
+      {/* NEW: Final Call to Action Section */}
+      <section className="w-full bg-slate-100 py-20 dark:bg-gray-950">
+        <div className="mx-auto flex max-w-4xl flex-col items-center px-8 text-center">
+          <h2 className="text-4xl font-bold tracking-tight">
+            Ready to Get Organized?
+          </h2>
+          <p className="mt-4 text-lg text-gray-600 dark:text-gray-400">
+            Download Sorteo for free and start conquering your digital clutter
+            today.
           </p>
-          <div className="mt-4 flex items-center gap-4 sm:mt-0">
-            <a
-              href="https://github.com/madmalio/sorteo"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-500 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
-            >
-              <SiGithub className="h-6 w-6" />
-            </a>
-          </div>
-        </div>
-      </footer>
-
-      {/* --- THANK YOU MODAL --- */}
-      <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
-        <DialogContent className="border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white">
-          <DialogHeader>
-            <DialogTitle className="text-2xl">
-              Thank You for Downloading!
-            </DialogTitle>
-            <DialogDescription className="pt-4 text-gray-600 dark:text-gray-400">
-              {
-                "Your download has started. If you find Sorteo useful, please consider supporting its development. Every little bit helps!"
-              }
-            </DialogDescription>
-          </DialogHeader>
           <a
-            href="https://ko-fi.com/madmalio" // TODO: Link to your Ko-fi or donation page
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-4 inline-flex w-full items-center justify-center rounded-lg bg-pink-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-pink-700"
+            href="/download"
+            className="mt-8 inline-block rounded-lg bg-blue-600 px-8 py-3 font-semibold text-white transition-colors hover:bg-blue-700"
           >
-            <Heart className="mr-2 h-5 w-5" />
-            Support the Project
+            Download for Windows
           </a>
-        </DialogContent>
-      </Dialog>
+        </div>
+      </section>
     </main>
   );
 }

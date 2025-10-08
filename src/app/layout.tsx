@@ -2,11 +2,14 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import { ScrollToTop } from "@/components/scroll-to-top";
+import { Footer } from "@/components/footer";
+import { ThemeToggle } from "@/components/theme-toggle"; // <-- Import the toggle
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sorteo", // You can customize the title here
+  title: "Sorteo",
   description: "Effortless File Organization for Your Desktop",
 };
 
@@ -24,7 +27,14 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          {/* Add this div for the toggle button */}
+          <div className="absolute top-4 right-4 z-50">
+            <ThemeToggle />
+          </div>
+
           {children}
+          <ScrollToTop />
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
