@@ -54,7 +54,15 @@ export default function DownloadPage() {
                 <a
                   href="/sorteo-v1.0.0-windows.zip"
                   download
-                  onClick={() => setIsModalOpen(true)}
+                  onClick={() => {
+                    setIsModalOpen(true);
+                    if (typeof window.gtag === "function") {
+                      window.gtag("event", "download", {
+                        event_category: "Sorteo App",
+                        event_label: "v1.0.0",
+                      });
+                    }
+                  }}
                   className="inline-flex h-12 w-full shrink-0 items-center justify-center rounded-lg bg-blue-600 px-6 text-base font-semibold text-white transition-colors hover:bg-blue-700 sm:w-auto"
                 >
                   <Download className="mr-2 h-5 w-5" />
